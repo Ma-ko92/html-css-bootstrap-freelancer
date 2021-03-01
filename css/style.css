@@ -7,6 +7,9 @@
     color: #2c3e50;
     text-transform: uppercase;
 }
+.star{
+    margin: 20px 0px;
+}
 
 /* HEADER */
 /* Heading */
@@ -21,19 +24,16 @@ nav{
     background-color: #2c3e50;
 }
 
-.menu ul{
+.menu-inline ul{
     text-align: right;
     margin: 20px 0px;
 }
 
-.menu ul li{
+.menu-inline ul li{
     list-style-type: none;
     display: inline-block;
 }
 
-.menu ul li a{
-    
-}
 .container .row .burger-menu{
     text-align: right;
 }
@@ -63,5 +63,72 @@ nav{
 }
 
 /* Section Middle */
+.sec_middle{
+    background-color: #1abc9c;
+}
+.sec_middle .wrapper{
+    width: 70%;
+    margin: 0 auto;
+}
 
+.sec_middle p{
+    text-align: left;
+}
+
+.dwnl_button i{
+    padding-right: 10px;
+}
+
+/* Section Bottom */
+.menu ul{
+   color: #2c3e50;
+   padding-left: 0px;
+}
+.menu ul li{
+    list-style-type: none;
+    text-align: left;
+    margin-bottom: 10px;
+    text-transform: none;
+}
+.section_bottom .wrapper{
+    width: 70%;
+    margin: 0 auto;
+}
+.sec_bot_btn{
+    text-align: left;
+    margin-top:40px;
+}
 /* MAIN END*/
+
+/* FOOTER */
+footer{
+    padding: 40px 0px;
+    text-align: center;
+    
+}
+.wrapper_footer{
+    background-color: #3a546d;
+}
+footer .menu-inline ul{
+    text-align: center;
+    padding-left: 0px;
+}
+footer .menu-inline ul li{
+    margin-right: 5px;
+    font-size: 25px;
+}
+footer .menu-inline ul li a{
+    color: white;
+}
+.menu-inline i{
+    border: 1px solid white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    padding: 7px;
+}
+.credits{
+    background-color: #2c3e50;
+    padding: 40px;
+}
+/* FOOTER END */
