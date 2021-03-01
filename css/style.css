@@ -3,6 +3,10 @@
     color: white;
     text-transform: uppercase;
 }
+.text-alt{
+    color: #2c3e50;
+    text-transform: uppercase;
+}
 
 /* HEADER */
 /* Heading */
@@ -50,3 +54,14 @@ nav{
 }
 
 /* HEADER END*/
+
+/* MAIN */
+/* Section top */
+.wrapper{
+    padding:40px;
+    text-align: center;
+}
+
+/* Section Middle */
+
+/* MAIN END*/
