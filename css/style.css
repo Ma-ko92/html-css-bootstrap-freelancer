@@ -42,6 +42,11 @@ nav{
     margin: 12px 15px;
     padding: 5px 10px;
 }
-
+/* Banner */
+.banner{
+    background-color: #1abc9c;
+    text-align: center;
+    padding: 30px 0px;
+}
 
 /* HEADER END*/
