@@ -9,7 +9,7 @@
 }
 .star{
     font-size: 25px;
-    margin: 20px 0px;
+    margin: 15px 0px;
     position: relative;
 }
 .star::before{
@@ -22,6 +22,21 @@
     top: 50%;
     position: absolute;
 }
+.star::after{
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background: white;
+    right: 34%;
+    top: 50%;
+    position: absolute;
+}
+.sub-title{
+    font-size: 35px;
+    font-weight: 600;
+}
+
 
 
 /* HEADER */
@@ -76,6 +91,10 @@ nav{
     font-size: 40px;
     font-weight: 600;
 }
+.banner-content p{
+    font-size: 18px;
+    font-weight: 600;
+}
 
 /* HEADER END*/
 
@@ -85,7 +104,9 @@ nav{
     padding:40px;
     text-align: center;
 }
-
+.portfolio-img{
+    margin: 15px 0px;
+}
 /* Section Middle */
 .sec_middle{
     background-color: #1abc9c;
@@ -95,8 +116,9 @@ nav{
     margin: 0 auto;
 }
 
-.sec_middle p{
+.sec_middle .wrapper p{
     text-align: left;
+    color: white;
 }
 
 .dwnl_button i{
